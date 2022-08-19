@@ -1,1 +1,8 @@
-# UDP-Controller
+# 通过UDP通信实时绘制控制器姿态信息
+
+##Software
+###Arduino：
+使用Arduino与MPU9250通信，获取加速度角速度地磁信息，计算欧拉角。并通过ESP8266EX与电脑进行UDP通信，发送九轴与欧拉角信息。
+
+###Python：
+设计了电路与PCB，但现阶段仍然使用面包板进行测试、未制作实物。
